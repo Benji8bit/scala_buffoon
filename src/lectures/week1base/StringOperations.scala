@@ -13,4 +13,17 @@ object StringOperations extends App {
   println(aString.toUpperCase())
   println("abcd".reverse)
   println(aString.take(-1))
+  
+  println(aString.take(5).toUpperCase())
+  println(aString.toUpperCase().substring(0, 5))
+  println(aString.substring(0, 5).toUpperCase())
+  println(aString.replace("a", "").take(3).reverse)
+  
+  val aNumber = "42".toInt
+  println(aNumber)
+  println(aNumber.getClass)
+  
+  println('1' +: "42" :+ '3')
+  println('a' +: "bc" :+ 'd')
+  println("a" ++ "bc" :++ "d")
 }
