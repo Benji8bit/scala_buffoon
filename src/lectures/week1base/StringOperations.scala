@@ -26,4 +26,10 @@ object StringOperations extends App {
   println('1' +: "42" :+ '3')
   println('a' +: "bc" :+ 'd')
   println("a" ++ "bc" :++ "d")
+  
+  val name = "John"
+  println(s"Hello, $name")
+  
+  val surname = "Smith"
+  println(s"Hello, ${name + surname}")
 }
