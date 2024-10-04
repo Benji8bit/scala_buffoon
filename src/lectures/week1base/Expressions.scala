@@ -10,4 +10,7 @@ object Expressions extends App {
   println(ifExpressionValue)
   
   println(if(aCondition) "True Condition" else "False Condition")
-}
+
+  val someVal = print("It is just a value")
+  print(someVal)
+  }
