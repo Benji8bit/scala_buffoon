@@ -13,4 +13,17 @@ object Expressions extends App {
 
   val someVal = print("It is just a value")
   print(someVal)
+
+  val someValue = {
+    1 < 0
+    2 == 5
+    4 < 9
+  }
+
+  val someCodeBlock = {
+    if (someValue) 1 else 0
+    1
+  }
+
+  println(someCodeBlock)
   }
