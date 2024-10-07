@@ -23,4 +23,9 @@ object Functions extends App {
   
   callByValue(System.nanoTime())
   callByName(System.nanoTime())
+
+  //def someFunc(): Int = 2 * someFunc() + 1
+  //def callSomeFunc(x: Int, y: => Int) = println(x)
+
+  //callSomeFunc(someFunc(), 1)
 }
