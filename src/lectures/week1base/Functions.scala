@@ -33,7 +33,7 @@ object Functions extends App {
   def aCondition(): Boolean = if (1 < 2) true else false
   def multiply(z: Int): Int = z * 2
   def someFunc(x: Int, y: => Int): Int = {
-    if (aCondition()) x * 3
+    if (aCondition()) x * 2
     else multiply(y)
   }
   println(someFunc(8, 9))
