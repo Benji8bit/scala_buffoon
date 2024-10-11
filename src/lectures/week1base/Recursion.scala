@@ -12,5 +12,5 @@ object Recursion extends App {
     if (n <= 0) 1
     else n * factorial(n-1)
   }
-  println(factorial(3))
+  println(factorial(4))
 }
