@@ -34,4 +34,5 @@ object Recursion extends App {
 
     loop(n, 1)
   }
+  println(factorialWithTailRecursion(4))
 }
