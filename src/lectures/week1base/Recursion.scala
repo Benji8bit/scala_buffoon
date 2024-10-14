@@ -25,4 +25,13 @@ object Recursion extends App {
     }
   }
   factorial(3)
+
+  def factorialWithTailRecursion(n: Int): Int = {
+    def loop(x: Int, accumulator: Int): Int = {
+      if (x <= 1) accumulator
+      else loop(x - 1, x * accumulator)
+    }
+
+    loop(n, 1)
+  }
 }
